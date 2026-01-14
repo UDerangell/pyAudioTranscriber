@@ -1,15 +1,15 @@
 # pyAudioTranscriber
 
-Transcribes MP3 files to text using Python Whisper model
-Worked on Python 3.12.1
-TODO: Refactor generated code, test newer versions of Whisper and dependencies
+- Transcribes MP3 files to text using Python Whisper model.
+- Worked on Python 3.12.1
+- TODO: Refactor generated code, test newer versions of Whisper and dependencies
 
-Subdirectories:
-mp3_files = where you store the MP3 files to be transcribed.  (Use a program like SmartConverter to convert files from other formats)
-wav_output = WAV versions of each MP3 file
-logs = log files for each MP3 file being converted
-transcripts = output TXT files containing transcript for each MP3 file
-transcript_env = virtual environment.  Use PIP to install Whisper and its dependencies.
+* Subdirectories:
+- mp3_files = where you store the MP3 files to be transcribed.  (Use a program like SmartConverter to convert files from other formats)
+- wav_output = WAV versions of each MP3 file
+- logs = log files for each MP3 file being converted
+- transcripts = output TXT files containing transcript for each MP3 file
+- transcript_env = virtual environment.  Use PIP to install Whisper and its dependencies.
 
 Sample Output:
 ```
